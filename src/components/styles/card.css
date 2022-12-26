@@ -1,0 +1,56 @@
+.banner{
+    height: auto;
+    width: auto;
+    margin-left: 0%;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+section{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.cards{
+    width: 250px;
+    padding: 20px;
+}
+.cards:hover{
+    box-shadow: 0px 0px 2px 2px rgb(255, 0, 0);
+    cursor: pointer;
+}
+.image_box img{
+    width: 250px;
+    height: 270px;
+    border-color:1px 1px 1px 1px red;
+}
+.details p:nth-child(1){
+    font-weight: bold;
+    color: white;
+}
+.details p:nth-child(2){
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+}
+.details p:nth-child(3){
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.details button{
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    background-color: rgb(248, 0, 0);
+    outline: none;
+    border-radius: 2px;
+    
+}
+.details button:active{
+    box-shadow: white;
+    transform: translateY(3px);
+
+}
+.details button:hover{
+    color: white;
+}
